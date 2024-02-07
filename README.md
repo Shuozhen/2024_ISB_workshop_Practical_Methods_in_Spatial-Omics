@@ -44,7 +44,10 @@ st_pipeline_run.py -h
 ### STAR reference build and reformat the rawdata
 Please refer to https://github.com/Shuozhen/DBiT-Notes/blob/main/README.md for details.
 
-### Run the 
+### Run the ST pipeline
+```
+sbatch stpipeline.sh
+```
 ### Downstream
 We can use Seurat, Scanpy, Squidpy, spatialDE, SpatialGLUE, NICHES, etc. to run the downstream analysis.
 
