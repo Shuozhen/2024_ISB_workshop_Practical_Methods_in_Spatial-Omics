@@ -7,11 +7,15 @@ https://github.com/MingyuYang-Yale/BENG469/tree/main/FA23
 ## Spatial folder generation
 ### Software
 AtlasXomics Browser https://docs.atlasxomics.com/projects/AtlasXbrowser/en/latest/Overview.html   
-### Manual selection
-Credit to Dr. Yanxiang Deng  
-Jupyter notebook code from: https://github.com/dyxmvp/Spatial_ATAC-seq  
+### Manual selection using Adobe Illustrator and python
+Credit to Dr. Yanxiang Deng: Jupyter notebook code https://github.com/dyxmvp/Spatial_ATAC-seq  
 Step-by-step instructions and demo files under 'Spatial_folder_generation' folder
-
+1. Overlay chip A and chip B scan in Adobe Illustrator and find the ROI;
+2. Draw any shape on each pixel and make sure not changing any property when dupicate it;
+3. Select the spots on tissue and change **only one** property of the object;
+4. Save the file at .svg file and make sure only spots info is kept.
+5. Save the ROI crop as _tissue_lowres._
+6. Run the jupyter notebook code to generate the spatial folder compatible with seurat and scanpy, etc
 
 ## Spatial RNA-Seq
 Credit to Dr. Mingyu Yang, https://github.com/MingyuYang-Yale/BENG469/tree/main/FA23/Lab7-Spatial%20transcriptomics/2023-11-02
