@@ -14,7 +14,7 @@ Step-by-step instructions and demo files under 'Spatial_folder_generation' folde
 2. Draw any shape on each pixel and make sure not changing any property when dupicate it;
 3. Select the spots on tissue and change **only one** property of the object;
 4. Save the file at .svg file and make sure only spots info is kept.
-5. Save the ROI crop as _tissue_lowres._
+5. Save the ROI crop as _tissue_lowres_image.png_
 6. Run the jupyter notebook code to generate the spatial folder compatible with seurat and scanpy, etc
 
 ## Spatial RNA-Seq
