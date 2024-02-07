@@ -37,7 +37,7 @@ st_pipeline_run.py -h
 ```
 <p><img width="1000" src="https://github.com/MingyuYang-Yale/BENG469/blob/main/SP21/stpipeline-3.png" alt="foo bar" title="train &amp; tracks" /></p>
 
-## Sptail ATAC-Seq
+## Spatial ATAC-Seq
 Using Cellranger to preprocess the raw data.  
 Written by Dr. Di Zhang, Xing Lou  
 ![](./snakemake_dag.png)
