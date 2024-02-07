@@ -40,6 +40,11 @@ Test whether ST pipeline is installed successfully
 st_pipeline_run.py -h
 ```
 <p><img width="1000" src="https://github.com/MingyuYang-Yale/BENG469/blob/main/SP21/stpipeline-3.png" alt="foo bar" title="train &amp; tracks" /></p>
+
+### STAR reference build and reformat the rawdata
+Please refer to https://github.com/Shuozhen/DBiT-Notes/blob/main/README.md for details.
+
+### Run the 
 ### Downstream
 We can use Seurat, Scanpy, Squidpy, spatialDE, SpatialGLUE, NICHES, etc. to run the downstream analysis.
 
