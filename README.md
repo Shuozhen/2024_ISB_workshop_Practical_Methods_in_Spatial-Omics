@@ -1,8 +1,5 @@
 # 2024_ISB_workshop_Practical_Methods_in_Spatial-Omics
 02/12/2024
-Adapted from Dr. Mingyu Yang's GitHub  
-https://github.com/MingyuYang-Yale/DBiT-seq  
-https://github.com/MingyuYang-Yale/BENG469/tree/main/FA23
 
 ## Spatial folder generation
 ### Software
