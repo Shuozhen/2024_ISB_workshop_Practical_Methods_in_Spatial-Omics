@@ -46,7 +46,8 @@ We can use Seurat, Scanpy, Squidpy, spatialDE, SpatialGLUE, NICHES, etc. to run 
 ## Spatial ATAC-Seq
 Using Cellranger to preprocess the raw data.  
 Credit to Dr. Di Zhang, Xing Lou  
-![]([Data_preprocessing/Spatial-ATAC-seq/snakemake_dag.png](https://github.com/di-0579/Spatial_epigenome-transcriptome_co-sequencing/blob/main/Data_preprocessing/Spatial-ATAC-seq/snakemake_dag.png))
+<p><img width="1000" src="https://github.com/di-0579/Spatial_epigenome-transcriptome_co-sequencing/blob/main/Data_preprocessing/Spatial-ATAC-seq/snakemake_dag.png" alt="foo bar" title="train &amp; tracks" /></p>
+
 ### Dependiencies
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/index.html). snakemake is python3
 * [Biopython](https://biopython.org/docs/1.75/api/index.html).
