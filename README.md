@@ -5,9 +5,9 @@ https://github.com/MingyuYang-Yale/DBiT-seq
 https://github.com/MingyuYang-Yale/BENG469/tree/main/FA23
 
 ### Spatial folder generation
-AtlasXomics Browser https://docs.atlasxomics.com/projects/AtlasXbrowser/en/latest/Overview.html
-Or Manually
-Credit to Dr. Yanxiang Deng
+AtlasXomics Browser https://docs.atlasxomics.com/projects/AtlasXbrowser/en/latest/Overview.html  
+Or Manually select  
+Credit to Dr. Yanxiang Deng  
 Jupyter notebook code from: https://github.com/dyxmvp/Spatial_ATAC-seq
    1. Open Adobe Illustrator, generate a artboard ~3000*3000 pixel;
    2. Import your image, and your overlaped ROI;
