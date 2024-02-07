@@ -89,7 +89,7 @@ Human reference (GRCh38):
 ### Downstream
 We can use ArchR, Signac, Scanpy, Squidpy, SpatialGLUE, etc. to run the downstream analysis.
 
-## Sptail RNA-ATAC-Seq
+## Spatial RNA-ATAC-Seq
 Credit to Yao Lu
 1. From the fragments file of ATAC-seq, generate the peak matrix using SnapATAC2
 2. From the expression matrix of RNA-seq, generate the gene expression matrix using spatialGLUE or scanpy.
