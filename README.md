@@ -11,7 +11,6 @@ AtlasXomics Browser https://docs.atlasxomics.com/projects/AtlasXbrowser/en/lates
 Credit to Dr. Yanxiang Deng  
 Jupyter notebook code from: https://github.com/dyxmvp/Spatial_ATAC-seq  
 Step-by-step instructions and demo files under 'Spatial_folder_generation' folder
-   19. Use the jupyter notebook code _metadata_for_seurat.ipynb_ to generate the contents inside the "Spatial_folder_generation" folder
 
 
 ## Spatial RNA-Seq
