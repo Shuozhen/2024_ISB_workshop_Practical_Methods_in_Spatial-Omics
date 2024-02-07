@@ -1,1 +1,1 @@
-The fastq files are too huge to upload, please check the workshop file share folder or [GSE137986](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137986) and [GSE205055](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205055)  
+The fastq files are too huge to upload, please check the workshop file share folder or [GSE137986](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137986) and [GSE205055](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205055) . 
