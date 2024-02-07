@@ -1,13 +1,13 @@
-## 2024_ISB_workshop_Practical_Methods_in_Spatial-Omics
+# 2024_ISB_workshop_Practical_Methods_in_Spatial-Omics
 02/12/2024
 Adapted from Dr. Mingyu Yang's GitHub  
 https://github.com/MingyuYang-Yale/DBiT-seq  
 https://github.com/MingyuYang-Yale/BENG469/tree/main/FA23
 
-### Spatial folder generation
-#### Software
+## Spatial folder generation
+### Software
 AtlasXomics Browser https://docs.atlasxomics.com/projects/AtlasXbrowser/en/latest/Overview.html   
-#### Manual selection
+### Manual selection
 Credit to Dr. Yanxiang Deng  
 Jupyter notebook code from: https://github.com/dyxmvp/Spatial_ATAC-seq
    1. Open Adobe Illustrator, generate a artboard ~3000*3000 pixel;
@@ -40,9 +40,9 @@ Jupyter notebook code from: https://github.com/dyxmvp/Spatial_ATAC-seq
    19. Use the jupyter notebook code _metadata_for_seurat.ipynb_ to generate the contents inside the "spatial" folder
 
 
-### Spatial RNA-Seq
+## Spatial RNA-Seq
 Credit to Dr. Mingyu Yang, https://github.com/MingyuYang-Yale/BENG469/tree/main/FA23/Lab7-Spatial%20transcriptomics/2023-11-02
-#### Install [Stpipeline](https://github.com/SpatialTranscriptomicsResearch/st_pipeline):
+### Install [Stpipeline](https://github.com/SpatialTranscriptomicsResearch/st_pipeline):
 ```
 module load miniconda
 ```
@@ -64,19 +64,19 @@ st_pipeline_run.py -h
 ```
 <p><img width="1000" src="https://github.com/MingyuYang-Yale/BENG469/blob/main/SP21/stpipeline-3.png" alt="foo bar" title="train &amp; tracks" /></p>
 
-### Sptail ATAC-Seq
+## Sptail ATAC-Seq
 Using Cellranger to preprocess the raw data.  
 Written by Dr. Di Zhang, Xing Lou  
 ![](./snakemake_dag.png)
 
-#### Dependiencies
+### Dependiencies
 
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/index.html). snakemake is python3
 * [Biopython](https://biopython.org/docs/1.75/api/index.html).
 * [Cell Ranger ATAC](https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/installation). v1.2
 * [BBMap](https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/installation-guide/).
 
-#### Run the pipeline
+### Run the pipeline
 1. Replace the cellranger-atac-cs/1.2.0/lib/python/barcodes/737K-cratac-v1.txt with the new barcodes file in this fold.
 2. Configure Snakefile
 3. Configure cluster.json
@@ -101,11 +101,11 @@ Human reference (GRCh38):
 ```
     sbatch Snakemake.sh
 ```
-### Sptail RNA-ATAC-Seq
+## Sptail RNA-ATAC-Seq
 Credit to Yao Lu
 Squidpy to analyze the two datasets
 
-### CODEX
+## CODEX
 segmentation
 step1 & step2
 step3 maxfuse
