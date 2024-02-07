@@ -43,9 +43,8 @@ st_pipeline_run.py -h
 
 ## Spatial ATAC-Seq
 Using Cellranger to preprocess the raw data.  
-Written by Dr. Di Zhang, Xing Lou  
+Credit to Dr. Di Zhang, Xing Lou  
 ![](./snakemake_dag.png)
-
 ### Dependiencies
 
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/index.html). snakemake is python3
