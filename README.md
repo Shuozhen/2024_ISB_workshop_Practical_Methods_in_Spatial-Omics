@@ -19,7 +19,7 @@ Step-by-step instructions and demo files under 'Spatial_folder_generation' folde
 
 ## Spatial RNA-Seq
 Credit to Dr. Mingyu Yang, https://github.com/MingyuYang-Yale/BENG469/tree/main/FA23/Lab7-Spatial%20transcriptomics/2023-11-02
-### Install [Stpipeline](https://github.com/SpatialTranscriptomicsResearch/st_pipeline):
+### Install [Stpipeline](https://github.com/SpatialTranscriptomicsResearch/st_pipeline) and pre-process the data
 ```
 module load miniconda
 ```
@@ -40,18 +40,18 @@ Test whether ST pipeline is installed successfully
 st_pipeline_run.py -h
 ```
 <p><img width="1000" src="https://github.com/MingyuYang-Yale/BENG469/blob/main/SP21/stpipeline-3.png" alt="foo bar" title="train &amp; tracks" /></p>
+### Downstream
+We can use Seurat, Scanpy, Squidpy, spatialDE, SpatialGLUE, NICHES, etc. to run the downstream analysis.
 
 ## Spatial ATAC-Seq
 Using Cellranger to preprocess the raw data.  
 Credit to Dr. Di Zhang, Xing Lou  
 ![](./snakemake_dag.png)
 ### Dependiencies
-
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/index.html). snakemake is python3
 * [Biopython](https://biopython.org/docs/1.75/api/index.html).
 * [Cell Ranger ATAC](https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/installation). v1.2
 * [BBMap](https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/installation-guide/).
-
 ### Run the pipeline
 1. Replace the cellranger-atac-cs/1.2.0/lib/python/barcodes/737K-cratac-v1.txt with the new barcodes file in this fold.
 2. Configure Snakefile
@@ -77,11 +77,11 @@ Human reference (GRCh38):
 ```
     sbatch Snakemake.sh
 ```
+### Downstream
+We can use ArchR, Signac, Scanpy, Squidpy, SpatialGLUE, etc. to run the downstream analysis.
+
 ## Sptail RNA-ATAC-Seq
 Credit to Yao Lu
-Squidpy to analyze the two datasets
-
-## CODEX
-segmentation
-step1 & step2
-step3 maxfuse
+1. From the fragments file of ATAC-seq, generate the peak matrix using SnapATAC2
+2. From the expression matrix of RNA-seq, generate the gene expression matrix using spatialGLUE or scanpy.
+3. Use spatialGLUE to analyze both modalities together following the script.
