@@ -1,5 +1,7 @@
 # 2024_ISB_workshop_Practical_Methods_in_Spatial-Omics
-02/12/2024
+02/12/2024  
+For the code and demo data, please find the detials https://drive.google.com/drive/folders/1x8Ym5IOerBxhVefHORomx3pDuZUzNrf4?usp=sharing.  
+Copy the files to your own directory should work more smooth because it might not involve the write permission to my Google Drive folder.
 
 ## Spatial folder generation
 ### Software
